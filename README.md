@@ -1,7 +1,7 @@
-#Bayero University, Kano
+# Bayero University, Kano
 # Java WorkShop CSC3301
 
-![Thinking Java](/java.jpg)
+![Thinking Java](/images/java.jpg)
 
 Find here the solution to all our class examples and lab exercises.
 
