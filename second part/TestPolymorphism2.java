@@ -24,8 +24,9 @@ class TestPolymorphism2{
   public static void main(String args[]){
     Shape s; s=new Rectangle();
     s.draw();
-    s.draw();
+    //s.draw(); this method should be called once
     s=new Circle();
+	s.draw(); 		//this method is for the Circle class
     s=new Triangle();
     s.draw();
   } }
