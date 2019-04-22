@@ -1,4 +1,4 @@
-#Bayero University Kano
+#Bayero University, Kano
 # Java WorkShop CSC3301
 
 ![Thinking Java](thnkng java.jpg)
