@@ -1,3 +1,4 @@
+//Sending this to github
 class Bank{ //Super Class
     void RateofInterest(){
         System.out.println("Default ROI is 10.0%");
