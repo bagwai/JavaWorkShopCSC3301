@@ -68,3 +68,4 @@ class Interface{
 		keke.printState();
 	}
 }
+//we can make the methods accept user input
