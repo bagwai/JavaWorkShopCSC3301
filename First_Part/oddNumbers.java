@@ -6,6 +6,7 @@ public class oddNumbers {
     line++;
     if (line == 2){
       System.out.println();
+	  System.out.println(i + "\t" + (i+2));
       line = 0;
     }
   }
