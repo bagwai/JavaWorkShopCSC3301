@@ -1,32 +1,33 @@
-class Bicycle{
-  int cadence = 0;  //attributes
+class Bicycle {
+  int cadence = 0; // attributes
   int speed = 0;
   int gear = 1;
 
-  Bicycle(){
+  Bicycle() {
     cadence = 0;
     speed = 0;
     gear = 1;
-  }   //methods
+  } // methods
 
-  void changeCadence(int newValue){
+  void changeCadence(int newValue) {
     cadence = newValue;
   }
 
-  void changeGear(int newValue){
+  void changeGear(int newValue) {
     gear = newValue;
   }
 
-  void speedUp(int increment){
+  void speedUp(int increment) {
     speed = speed + increment;
   }
 
-  void applyBrakes(int decrement){
+  void applyBrakes(int decrement) {
     speed = speed - decrement;
   }
 
-  void printStates(){System.out.println("Cadence: " + cadence + "Speed: " + speed + "Gear: " + gear);
-}
+  void printStates() {
+    System.out.println("Cadence: " + cadence + "Speed: " + speed + "Gear: " + gear);
+  }
 }
 
 class BicycleDemo{
@@ -43,4 +44,4 @@ class BicycleDemo{
     bike2.speedUp(15);
     bike2.printStates();
   }
-}
+}

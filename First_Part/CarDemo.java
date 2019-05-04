@@ -1,45 +1,46 @@
-                                    //Java Lab Exercise 1
-                                        //Problem Two
-                                        //CarDemo.java
-                        //Author: Mubarak Daha Isa CST/16/COM/00582
+//Java Lab Exercise 1
+//Problem Two
+//CarDemo.java
+//Author: Mubarak Daha Isa CST/16/COM/00582
 
-class Car{
-  int horsePower = 20;  //attributes
+class Car {
+  int horsePower = 20; // attributes
   int speed = 120;
-  int fuelConsumption = 3;    //All the value of the attributes are assumed
+  int fuelConsumption = 3; // All the value of the attributes are assumed
   int gasTank = 10;
   int travelledTime = 3;
 
-  Car(){    //constructor
-        horsePower = 20;
-        speed = 120;
-        fuelConsumption = 3;
-        gasTank = 10;
-        travelledTime = 3;
+  Car() { // constructor
+    horsePower = 20;
+    speed = 120;
+    fuelConsumption = 3;
+    gasTank = 10;
+    travelledTime = 3;
   }
 
-  //methodsc
-  void travelledTimeUp(int newValue){
-    travelledTime = (speed/travelledTime);
+  // methods
+  void travelledTimeUp(int newValue) {
+    travelledTime = (speed / travelledTime);
     travelledTime += newValue;
   }
 
-  void speedUp(int increment){
+  void speedUp(int increment) {
     speed = speed + increment;
   }
 
-  void applyBrakes(int decrement){
+  void applyBrakes(int decrement) {
     speed = speed - decrement;
   }
 
-  void printStatesTank(){System.out.println("The State of Tank is: " + (travelledTime - gasTank));
-}
+  void printStatesTank() {
+    System.out.println("The State of Tank is: " + (travelledTime - gasTank));
+  }
 }
 
-//main class
-class CarDemo{
+// main class
+public class CarDemo {
   public static void main(String[] args) {
-    //creating 3 diffrent Car objects
+    // creating 3 diffrent Car objects
     Car car1 = new Car();
     Car car2 = new Car();
     Car car3 = new Car();
