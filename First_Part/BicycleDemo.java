@@ -30,9 +30,9 @@ class Bicycle {
   }
 }
 
-class BicycleDemo{
+class BicycleDemo {
   public static void main(String[] args) {
-    //creating 2 diffrent Bicycle objects
+    // creating 2 diffrent Bicycle objects
 
     Bicycle bike1 = new Bicycle();
     Bicycle bike2 = new Bicycle();
@@ -44,4 +44,4 @@ class BicycleDemo{
     bike2.speedUp(15);
     bike2.printStates();
   }
-}
+}
